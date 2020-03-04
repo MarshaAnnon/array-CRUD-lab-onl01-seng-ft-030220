@@ -9,7 +9,8 @@ end
 
 def add_element_to_end_of_array(array, element)
   array = ["marigold", "dahlia", "lilac", "gardenia"]
-  add_element_to_end_of_array << "iris"
+  element = "iris"
+  element << "iris"
 
 end
 
